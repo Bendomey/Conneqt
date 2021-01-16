@@ -1,5 +1,5 @@
 # Conneqt
 
-Conneqts student to their respected asociation. This is repository is the services implemented in go. Using the micro-service rpc architecture 🔥🤗
+Conneqts student to their respective asociation. This repository is the implementation of the services in go. Using the micro-service gRPC architecture 🔥🤗
 
-![alt text](https://github.com/Bendomey/Conneqt/blob/main/erd.png?raw=true)
+![Erd Diagram](https://github.com/Bendomey/Conneqt/blob/main/erd.png?raw=true)

@@ -1,0 +1,174 @@
+Conneqt
+
+Models
+- Country 
+- Region 
+- School 
+- Association 
+- Members 
+- Admins 
+- Feeds 
+- Timetable
+- Dues 
+- Polls 
+- Election 
+- Forums 
+
+Country
+1. id
+2. Name
+3. Lat and long
+4. createdBy
+5. createdAt
+
+Region
+1. Id
+2. Name
+3. Lat and long
+4. Country ID
+5. createdBy
+6. createdAt
+
+School
+1. Id
+2. Name
+3. Location (Country, region, city)
+4. createdBy
+5. createdAt
+6. updatedAt
+7. Type (College, High School, Elementary)
+8. Gender (male, female, mixed)
+
+Association 
+1. Id
+2. Name
+3. Gender (males, females, mixed)
+4. School ID
+5. apps (Polls, Timetable, Dues, Forum, Election,Feeds)
+6. createdBy
+7. createdAt
+8. updatedAt
+
+Members (Normal Users And Association Admin)
+1. Id
+2. Full name 
+3. Username (Your index number or fake name)
+4. Email
+5. Phone
+6. Password 
+7. Gender (Male, Female)
+8. School ID (In UI, choose type to filter schools)
+9. createdAt
+
+Member_Association_Permission
+1. Id
+2. Member ID
+3. Association ID
+4. permissions: “[“create_poll”,”update_poll”,”delete_poll”,”delete_poll”,etc]”
+
+Admins (Super Admins)
+1. Id
+2. Name 
+3. Email Address
+4. Phone Number
+5. Password
+6. CreatedBy 
+7. CreatedAt
+
+Feeds 
+1. Id
+2. Type (General, Association)
+3. Association ID
+4. Message 
+5. Poll ID
+6. createdBy(Could be association admin or super admin)
+7. createdAt
+8. updatedAt
+
+Feed_Commenting
+1. Id
+2. Feed ID
+3. commentID
+4. createdBy
+5. Message
+6. createdAt
+
+NB: Semester -> to keep track of the semester for each association
+Semester
+1. Id
+2. Academic year
+3.  Type (1,2,3)
+4. Status (active or deactivate)
+5. Association ID
+6. createdBy
+7. createdAt
+8. updatedAt
+
+Dues
+1. Id
+2. Association ID
+3. Semester ID
+4. Amount (in pesewas)
+5. createdBy
+6. createdAt
+7. updatedAt
+
+
+Timetable
+
+TBD
+
+
+Poll
+1. Id
+2. Statement
+3. Image
+4. Status (open, close)
+5. createdAt
+6. updatedAt
+
+Poll_Single
+1. Id
+2. Poll Id
+3. Type (Image, text)
+4. Message
+5. Votes
+6. createdAt
+7. updatedAt
+
+Elections
+1. Id
+2. Semester ID
+3. Association ID
+4. Name
+5. createdBy
+6. createdAt
+7. updatedAt
+
+ElectionParticipant
+1. Id
+2. Election ID
+3. Member ID
+4. Vetting_Status (passed Or Failed)
+5. Votes 
+6. createdBy
+7. createdAt
+8. updatedAt
+
+Forums
+1. Id 
+2. Type (General, Association)
+3. Association ID
+4. Name
+5. createdBy
+6. createdAt
+7. updatedAt
+
+Forum_Message
+1. Id
+2. Message
+3. Forum ID
+4. createdBy
+5. replyingMessage
+6. CreatedAt
+
