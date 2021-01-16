@@ -71,7 +71,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Add Due
 
 ### Elections
-- [ ] Create Election For In A Semester
+- [ ] Create Election In A Semester
 - [ ] Update Election Details
 - [ ] Create Election Participant
 - [ ] Vote on Election Participant
