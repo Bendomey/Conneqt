@@ -11,8 +11,73 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Read And Filter Country
 - [ ] Delete School
 
-### Country
+### Region
 - [ ] Create Region
 - [ ] Update Region
 - [ ] Read And Filter Regions
 - [ ] Delete Region
+
+
+### School
+- [ ] Create School
+- [ ] Update School
+- [ ] Read And Filter School
+- [ ] Delete School
+
+### Association
+- [ ] Create Association
+- [ ] Update Association
+- [ ] Read And Filter Association
+- [ ] Delete Association
+
+### Members
+- [ ] Create Member
+- [ ] Update Member profile
+- [ ] Read And Filter Member
+- [ ] Delete Member
+- [ ] Login Member
+- [ ] Request Reset Code
+- [ ] Reset Password
+- [ ] Update Password
+- [ ] Update Member Permissions
+
+### Administrator
+- [ ] Create Administrator
+- [ ] Update Administrator profile
+- [ ] Read And Filter Administrator
+- [ ] Delete Administrator
+- [ ] Login Administrator
+- [ ] Request Reset Code
+- [ ] Reset Password
+- [ ] Update Password
+
+### Feeds
+- [ ] Create Feed
+- [ ] Like Feed
+- [ ] Comment On Feed
+- [ ] Delete Feed
+- [ ] Create Poll
+- [ ] Vote On Poll
+- [ ] End Poll
+
+### Semester
+- [ ] Create Semester
+- [ ] Update Semester
+- [ ] Read Or Filter Semester
+- [ ] Delete Semester
+
+### Dues
+- [ ] Add Due
+
+### Elections
+- [ ] Create Election For In A Semester
+- [ ] Update Election Details
+- [ ] Create Election Participant
+- [ ] Vote on Election Participant
+- [ ] Declare Winner And End Election
+
+### Forum
+- [ ] Create Forum
+- [ ] Add A Message
+- [ ] Reply A message
+- [ ] Delete A Message
