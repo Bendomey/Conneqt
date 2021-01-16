@@ -59,6 +59,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Create Poll
 - [ ] Vote On Poll
 - [ ] End Poll
+- [ ] Declare Winner And End Poll
 
 ### Semester
 - [ ] Create Semester
