@@ -1,36 +1,49 @@
 # Conneqt
+
 Conneqts student to their respective asociation. This repository is the implementation of the services in go. Using the micro-service gRPC architecture 🔥🤗
 
 ![Erd Diagram](https://github.com/Bendomey/Conneqt/blob/main/erd.png?raw=true)
 
+## Services Implementaton
+
+- [ ] Accounts
+- [ ] Utility
+- [ ] Student
+- [ ] Feed
+- [ ] Messaging
+
 ## Model Implementaton
 
 ### Country
+
 - [ ] Create Country
 - [ ] Update Country
 - [ ] Read And Filter Country
 - [ ] Delete School
 
 ### Region
+
 - [ ] Create Region
 - [ ] Update Region
 - [ ] Read And Filter Regions
 - [ ] Delete Region
 
-
 ### School
+
 - [ ] Create School
 - [ ] Update School
 - [ ] Read And Filter School
 - [ ] Delete School
 
 ### Association
+
 - [ ] Create Association
 - [ ] Update Association
 - [ ] Read And Filter Association
 - [ ] Delete Association
 
 ### Members
+
 - [ ] Create Member
 - [ ] Update Member profile
 - [ ] Read And Filter Member
@@ -42,6 +55,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Update Member Permissions
 
 ### Administrator
+
 - [ ] Create Administrator
 - [ ] Update Administrator profile
 - [ ] Read And Filter Administrator
@@ -52,6 +66,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Update Password
 
 ### Feeds
+
 - [ ] Create Feed
 - [ ] Like Feed
 - [ ] Comment On Feed
@@ -62,15 +77,18 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Declare Winner And End Poll
 
 ### Semester
+
 - [ ] Create Semester
 - [ ] Update Semester
 - [ ] Read Or Filter Semester
 - [ ] Delete Semester
 
 ### Dues
+
 - [ ] Add Due
 
 ### Elections
+
 - [ ] Create Election In A Semester
 - [ ] Update Election Details
 - [ ] Create Election Participant
@@ -78,6 +96,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 - [ ] Declare Winner And End Election
 
 ### Forum
+
 - [ ] Create Forum
 - [ ] Add A Message
 - [ ] Reply A message

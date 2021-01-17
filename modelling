@@ -14,14 +14,14 @@ Models
 - Election 
 - Forums 
 
-Country
+Country (Utility)
 1. id
 2. Name
 3. Lat and long
 4. createdBy
 5. createdAt
 
-Region
+Region (Utility)
 1. Id
 2. Name
 3. Lat and long
@@ -29,7 +29,7 @@ Region
 5. createdBy
 6. createdAt
 
-School
+School (Utility)
 1. Id
 2. Name
 3. Location (Country, region, city)
@@ -39,7 +39,7 @@ School
 7. Type (College, High School, Elementary)
 8. Gender (male, female, mixed)
 
-Association 
+Association (Utility)
 1. Id
 2. Name
 3. Gender (males, females, mixed)
@@ -49,7 +49,7 @@ Association
 7. createdAt
 8. updatedAt
 
-Members (Normal Users And Association Admin)
+Members (Normal Users And Association Admin) (Accounts)
 1. Id
 2. Full name 
 3. Username (Your index number or fake name)
@@ -60,13 +60,13 @@ Members (Normal Users And Association Admin)
 8. School ID (In UI, choose type to filter schools)
 9. createdAt
 
-Member_Association_Permission
+Member_Association_Permission (Accounts)
 1. Id
 2. Member ID
 3. Association ID
 4. permissions: “[“create_poll”,”update_poll”,”delete_poll”,”delete_poll”,etc]”
 
-Admins (Super Admins)
+Admins (Super Admins) (Accounts)
 1. Id
 2. Name 
 3. Email Address
@@ -75,7 +75,7 @@ Admins (Super Admins)
 6. CreatedBy 
 7. CreatedAt
 
-Feeds 
+Feeds (Feed) (Accounts)
 1. Id
 2. Type (General, Association)
 3. Association ID
@@ -85,7 +85,7 @@ Feeds
 7. createdAt
 8. updatedAt
 
-Feed_Commenting
+Feed_Commenting (Feed)
 1. Id
 2. Feed ID
 3. commentID
@@ -94,7 +94,7 @@ Feed_Commenting
 6. createdAt
 
 NB: Semester -> to keep track of the semester for each association
-Semester
+Semester (Student)
 1. Id
 2. Academic year
 3.  Type (1,2,3)
@@ -104,7 +104,7 @@ Semester
 7. createdAt
 8. updatedAt
 
-Dues
+Dues (Student)
 1. Id
 2. Association ID
 3. Semester ID
@@ -114,12 +114,12 @@ Dues
 7. updatedAt
 
 
-Timetable
+Timetable (Student)
 
 TBD
 
 
-Poll
+Poll (Feed)
 1. Id
 2. Statement
 3. Image
@@ -127,7 +127,7 @@ Poll
 5. createdAt
 6. updatedAt
 
-Poll_Single
+Poll_Single (Feed)
 1. Id
 2. Poll Id
 3. Type (Image, text)
@@ -136,7 +136,7 @@ Poll_Single
 6. createdAt
 7. updatedAt
 
-Elections
+Elections (Student)
 1. Id
 2. Semester ID
 3. Association ID
@@ -145,7 +145,7 @@ Elections
 6. createdAt
 7. updatedAt
 
-ElectionParticipant
+ElectionParticipant (Student)
 1. Id
 2. Election ID
 3. Member ID
@@ -155,7 +155,7 @@ ElectionParticipant
 7. createdAt
 8. updatedAt
 
-Forums
+Forums (Messaging)
 1. Id 
 2. Type (General, Association)
 3. Association ID
@@ -164,11 +164,10 @@ Forums
 6. createdAt
 7. updatedAt
 
-Forum_Message
+Forum_Message (Messaging)
 1. Id
 2. Message
 3. Forum ID
 4. createdBy
 5. replyingMessage
 6. CreatedAt
-
