@@ -7,6 +7,7 @@ Conneqts student to their respective asociation. This repository is the implemen
 ## Services Implementaton
 
 - [ ] Accounts
+- [ ] Gateway
 - [ ] Utility
 - [ ] Student
 - [ ] Feed
